@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Evaluation startdate:</strong>
+  <%= @evaluation.evaluation_startDate %>
+</p>
+
+<p>
+  <strong>Evaluation enddate:</strong>
+  <%= @evaluation.evaluation_endDate %>
+</p>
+
+<p>
+  <strong>Communication rating:</strong>
+  <%= @evaluation.communication_rating %>
+</p>
+
+<p>
+  <strong>Attitude rating:</strong>
+  <%= @evaluation.attitude_rating %>
+</p>
+
+<p>
+  <strong>Character rating:</strong>
+  <%= @evaluation.character_rating %>
+</p>
+
+<p>
+  <strong>Potential rating:</strong>
+  <%= @evaluation.potential_rating %>
+</p>
+
+<p>
+  <strong>Performance rating:</strong>
+  <%= @evaluation.performance_rating %>
+</p>
+
+<p>
+  <strong>Employee:</strong>
+  <%= @evaluation.employee_id %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @evaluation.position_id %>
+</p>
+
+<%= link_to 'Edit', edit_evaluation_path(@evaluation) %> |
+<%= link_to 'Back', evaluations_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job_title: MyString
+  company: MyString
+  experience_startDate: 2015-02-05
+  experience_endDate: 2015-02-05
+  experience_field: MyString
+  employee_id: 1
+
+two:
+  job_title: MyString
+  company: MyString
+  experience_startDate: 2015-02-05
+  experience_endDate: 2015-02-05
+  experience_field: MyString
+  employee_id: 1

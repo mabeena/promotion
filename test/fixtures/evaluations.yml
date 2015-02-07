@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  evaluation_startDate: 2015-02-05
+  evaluation_endDate: 2015-02-05
+  communication_rating: 1
+  attitude_rating: 1
+  character_rating: 1
+  potential_rating: 1
+  performance_rating: 1
+  employee_id: 1
+  position_id: 1
+
+two:
+  evaluation_startDate: 2015-02-05
+  evaluation_endDate: 2015-02-05
+  communication_rating: 1
+  attitude_rating: 1
+  character_rating: 1
+  potential_rating: 1
+  performance_rating: 1
+  employee_id: 1
+  position_id: 1
